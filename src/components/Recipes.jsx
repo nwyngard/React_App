@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Recipes = () => {
     const fetchRecipes = async () => {
         // Fetch data from the API
-        const apiKey = 'c9edbee5a8ca4267996c1515901df6dd';
+        const apiKey = 'e62b0f63906c4b28b7f005b926b24b33';
         const res = await fetch(`https://api.spoonacular.com/recipes/random?apiKey=${apiKey}&number=6`);
         const data = await res.json();
         // Return the recipes from the data

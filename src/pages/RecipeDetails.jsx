@@ -14,7 +14,7 @@ const RecipeDetails = () => {
 
     //Fetch recipe details from the API using the 'name' parameter from the URL
     const fetchDetails = async () => {
-        const apiKey = "c9edbee5a8ca4267996c1515901df6dd";
+        const apiKey = "e62b0f63906c4b28b7f005b926b24b33";
         const data = await fetch(`https://api.spoonacular.com/recipes/${params.name}/information?apiKey=${apiKey}`);
         const detailData = await data.json();
         setDetails(detailData);
