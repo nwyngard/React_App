@@ -175,6 +175,14 @@ img {
   width: 100%;
 }
 
+.center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
 .theme-toggle-btn {
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
@@ -215,4 +223,28 @@ body.dark-mode .recipe-details {
 body.dark-mode .title-container {
   background-color: #222222;
 }
+
+.rating-card {
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fbfbfb;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.rating-card h5,
+.rating-card h6 {
+  margin-bottom: 5px;
+}
+
+body.dark-mode .rating-card {
+  background-color: #222222;
+  border-color: #555555;
+  color: #ccc;
+}
+
+
+
+
 

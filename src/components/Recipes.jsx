@@ -2,7 +2,6 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import Recipe from './Recipe';
 import { useQuery } from 'react-query';
-import { Link } from "react-router-dom";
 
 const Recipes = () => {
     const fetchRecipes = async () => {
